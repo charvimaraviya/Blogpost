@@ -1,0 +1,25 @@
+
+.page-wrapper{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.previous-btn{
+    background: rgb(96, 144, 231);
+    border-radius: 5px;
+    border: 1px solid rgb(96, 144, 231);
+    color: white;
+    padding: 8px 14px;
+}
+.next-btn{
+    background: rgb(96, 144, 231);
+    border-radius: 5px;
+    border: 1px solid rgb(96, 144, 231);
+    color: white;
+    padding: 8px 14px;
+}
+.page-number{
+    padding: 8px 14px;
+}

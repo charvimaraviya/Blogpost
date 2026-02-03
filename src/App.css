@@ -1,0 +1,59 @@
+.card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+h1{
+  text-align: center;
+} 
+.app-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-wrapper.light{
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.app-wrapper.dark{
+  background-color: black;
+  color: #ffffff;
+}
+
+.content {
+  flex: 1;
+}
+
+.scroll-arrow {
+  position: fixed;
+  bottom: 30px;        /* bottom થી distance */
+  right: 20px;         /* right side */
+  width: 55px;         /* size adjust */
+  height: 55px;
+  cursor: pointer;
+  z-index: 1000;       /* footer/navbar ઉપર દેખાય */
+}
+
+.scroll-arrow:hover {
+  transform: translateY(-5px);
+  opacity: 0.8;
+}
+
+.container-home {
+  min-height: 100vh;
+  transition: all 0.3s ease;
+}
+
+/* Light Mode */
+.container-home.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Dark Mode */
+.container-home.dark {
+  background-color: black;
+  color: #ffffff;
+}
