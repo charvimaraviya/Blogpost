@@ -4,7 +4,7 @@ import { Login } from "./Login";
 import { HomePage } from "../pages/HomePage";
 import RootLayout from "../pages/Rootlayout";
 import Postdetail from "./Postdetailpage";
-import AuthGuard from "../guard/Authguard";
+import AuthGuard from "../guard/AuthGuard";
 import NotFound from "./NotFound";
 import { ExplorePage } from "../pages/ExplorePage";
 import { Pagination } from "./Pagination";
